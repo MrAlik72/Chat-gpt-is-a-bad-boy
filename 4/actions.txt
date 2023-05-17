@@ -1,0 +1,10 @@
+lspci -v
+lspci -n | grep 00:03
+sudo ifconfig enp3s0 down
+sudo rmmod e1000
+make
+sudo insmod pci_thing.ko
+sudo dmesg
+sudo mknod /dev/pci_device c 238 0
+gcc pci_use.c
+./a.out
