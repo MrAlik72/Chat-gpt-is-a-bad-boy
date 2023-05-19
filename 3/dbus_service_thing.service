@@ -1,0 +1,10 @@
+[Unit]
+Description=Dbus internet connection
+
+[Service]
+User=root
+ExecStart=/bin/bash /home/MrAlik72/Desktop/PROGA3/dbus_thing.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
