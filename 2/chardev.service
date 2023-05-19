@@ -1,0 +1,10 @@
+[Unit] 
+Description=Service
+
+[Service] 
+User=root
+ExecStart=/home/MrAlik72/Downloads/PROGA/a.out
+Restart=always 
+
+[Install] 
+WantedBy=multi-user.target
