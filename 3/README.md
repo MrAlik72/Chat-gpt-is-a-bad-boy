@@ -1,4 +1,4 @@
-1) sudo cp /home/zefass/Desktop/practice6/dbus_service_thing.service /etc/systemd/system/dbus_service_thing.service
+1) sudo cp /home/MrAlik72/Desktop/PROGA3/dbus_service_thing.service /etc/systemd/system/dbus_service_thing.service
 2) sudo -i (root)
 3) cd /etc/systemd/system/
 4) sudo systemctl daemon-reload
